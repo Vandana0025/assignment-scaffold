@@ -1,0 +1,23 @@
+.footerCom {
+    height: 50px;
+    z-index: auto;
+    padding: 7px 20px 0px 20p
+}
+
+.footerBar {
+    float:right;
+}
+
+.btnMargin {
+    border-radius: 15px;
+}
+
+.approveBtn {
+    background-color: #1A293B;
+    color: whitesmoke;
+
+}
+
+.textColor {
+    color: red;
+}

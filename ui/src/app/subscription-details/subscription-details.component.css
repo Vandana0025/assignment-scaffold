@@ -1,0 +1,29 @@
+.subComponent {
+    width: 430px;
+    font-size:14px;
+    line-height: 2;
+    padding: 10px;
+}
+
+.subTitle  {
+    color: gray;
+}
+
+.subValue {
+    color:rgb(47, 46, 46);
+}
+
+.formatGrid {
+    line-height: 1.5;
+    padding: 0px 10px;
+    display: inline-grid;
+}
+
+.borderLine {
+    border-right: groove;
+}
+
+h3 {
+    color: rgb(27, 209, 233);
+    margin: 0px 10px;
+}

@@ -1,0 +1,12 @@
+<div class="imageGallery dropShadow displayGrid">
+  <div *ngFor="let image of images" class="displayGrid">
+    <mat-label>{{image.imageTitle}}</mat-label>
+    <span>
+      <img src={{image.srcAddress}}  class="imageSize"/>
+    </span>
+    <span>
+      <mat-icon class="imgFunctions">refresh</mat-icon>
+      <mat-icon class="imgFunctions">zoom_in</mat-icon>
+    </span>
+  </div>
+</div>

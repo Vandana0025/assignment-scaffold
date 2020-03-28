@@ -1,0 +1,61 @@
+/* .login {
+    height:400px;
+    width: 40vw;
+} */
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+  
+  input, button {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  }
+  
+  .cont {
+    overflow: hidden;
+    position: relative;
+    width: 40vw;
+    height: 550px;
+    margin: 40px auto 100px;
+    background: #fff;
+  }
+  
+  label {
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    text-align: center;
+  }
+
+  label span {
+      color:grey;
+  }
+  
+  .submit {
+    height: 50px;
+    width:200px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: #1A293B;
+    color:whitesmoke;
+    text-transform: uppercase;
+  }
+
+  .position {
+    text-align: center;
+  }
+  

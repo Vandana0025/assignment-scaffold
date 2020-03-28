@@ -1,0 +1,27 @@
+.headerCom {
+    height: 60px;
+    border:gray;
+
+}
+
+.searchbar {
+    float: right;
+}
+
+.search {
+    border-radius: 30px;
+    height: 35px;
+    width: 250px;
+    border-style: hidden;
+    padding: 0px 25px;
+}
+
+.logout {
+    padding: 10px;
+}
+
+.logoImage {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}

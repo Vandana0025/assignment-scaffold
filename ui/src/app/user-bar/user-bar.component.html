@@ -1,0 +1,51 @@
+<div class="userbar dropShadow">
+  <div>
+    <span class="profileImage">
+      <!-- <img src="./assets/profile.png"/> -->
+    </span>
+
+    <span class="displayGrid ">
+      <span>{{username}}</span>
+      <span>{{position}}</span>
+    </span>
+
+    <button mat-raised-button class="primary btnSizeColor">
+      <span class="displayGrid ">
+        <span>TOTAL</span><span>{{total}}</span>
+      </span>
+    </button>
+
+    <button mat-raised-button class="approved btnSizeColor">
+      <span class="displayGrid ">
+        <span>APPROVED</span><span>{{approved}}</span>
+      </span>
+    </button>
+
+    <button mat-raised-button class="rejected btnSizeColor">
+      <span class="displayGrid ">
+        <span>REJECTED</span><span>{{rejected}}</span>
+      </span>
+    </button>
+  </div>
+
+  <div>
+    <button mat-raised-button class="timerBtn">
+      <span class="displayGrid ">
+        <span>Average Handling Time</span>
+        <span>00:15:00</span>
+      </span>
+    </button>
+
+    <span class="availableWatch togglebar">
+      <span>Available </span>
+      <mat-slide-toggle (changed)=resumeAvailable() id="availableTimer"></mat-slide-toggle>
+      <span>{{available}}</span>
+    </span>
+
+    <span class="breakWatch  togglebar">
+      <span>Break</span>
+      <mat-slide-toggle (changed)=resumeBreak($event) id="breakTimer"></mat-slide-toggle>
+      <span>{{breakTime}}</span>
+    </span>
+  </div>
+</div>

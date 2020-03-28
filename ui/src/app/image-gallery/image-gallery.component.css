@@ -1,0 +1,16 @@
+.imageSize {
+    width:600px;
+    padding: 10px;
+}
+
+.imageGallery{
+    width:40vw;
+    max-height: 65vh;
+    overflow-y: auto;
+}
+
+.imgFunctions {
+    background-color: darkslategrey;
+    color: whitesmoke;
+    margin: 0px 5px;
+}

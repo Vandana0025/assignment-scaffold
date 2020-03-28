@@ -1,0 +1,27 @@
+.positonElements {
+    padding: 20px 20px 3px 20px;
+    display: inline-flex;
+}
+
+.floatRightBar {
+    float: right;
+    margin: 0px 40px;
+}
+
+.detailBar {
+    width: 76vw;
+    margin: 0px 10px;
+
+}
+
+.refresh {
+    float:right;
+    color: rgb(27, 209, 233);
+}
+
+.subDetail {
+    color: #7C4D9E;
+    font-size: 20px;
+    margin: 0px 27px;
+}
+
