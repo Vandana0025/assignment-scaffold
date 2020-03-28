@@ -4,13 +4,13 @@ var users = [
   {
     id: 1,
     name: 'Vandana',
-    email: 'random@random.com',
+    email: 'vandana@mail.com',
     password: 'pass123',
   },
   {
     id: 2,
     name: 'John',
-    email: 'John@mail.com',
+    email: 'john@mail.com',
     password: 'pass123',
   },
 ]
