@@ -1,4 +1,5 @@
-<div class="userbar dropShadow">
+<!-- User Detail bas and Timers -->
+<div class="userbar">
   <div>
     <span class="profileImage">
       <!-- <img src="./assets/profile.png"/> -->
@@ -28,21 +29,22 @@
     </button>
   </div>
 
-  <div>
-    <button mat-raised-button class="timerBtn">
+  <!-- Timers in Dashboard -->
+  <div class="">
+    <button mat-raised-button class="timerBtn timerSpacing">
       <span class="displayGrid ">
         <span>Average Handling Time</span>
         <span>00:15:00</span>
       </span>
     </button>
 
-    <span class="availableWatch togglebar">
+    <span class="timerSpacing">
       <span>Available </span>
       <mat-slide-toggle (changed)=resumeAvailable() id="availableTimer"></mat-slide-toggle>
       <span>{{available}}</span>
     </span>
 
-    <span class="breakWatch  togglebar">
+    <span class="timerSpacing">
       <span>Break</span>
       <mat-slide-toggle (changed)=resumeBreak($event) id="breakTimer"></mat-slide-toggle>
       <span>{{breakTime}}</span>

@@ -1,16 +1,14 @@
 .imageSize {
-    width:600px;
-    padding: 10px;
+    width: 30vw;
 }
 
-.imageGallery{
-    width:40vw;
-    max-height: 65vh;
-    overflow-y: auto;
+.imageGallery {
+    width: 35vw;
+    height: 100%;
+    overflow-y: scroll;
 }
 
 .imgFunctions {
     background-color: darkslategrey;
     color: whitesmoke;
-    margin: 0px 5px;
 }

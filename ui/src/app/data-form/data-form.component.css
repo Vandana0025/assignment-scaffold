@@ -6,7 +6,7 @@ mat-label {
 h3 {
     color:red;
     border-left: 3px solid red;
-    padding: 8px;
+    padding: 0px 8px;
 }
 
 mat-form-field{
@@ -14,9 +14,7 @@ mat-form-field{
 }
 
 .customerDetails {
-    width: 450px;
-    margin-top: 20px;
-    max-height: 39vh;
+    height: 38vh;
     overflow-y: auto;
 }
       

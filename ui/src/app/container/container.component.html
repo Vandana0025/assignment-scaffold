@@ -1,21 +1,22 @@
-<div >
-    <app-user-bar></app-user-bar>
-    <div class="detailBar">
-       <span class="subDetail">
-        Subscriber Details
-       </span> 
-       <span class = "refresh">
-        <mat-icon>refresh</mat-icon> Recent Cases
-       </span>
+
+<div class="wrap">
+    <div class="flexfull dropShadow">
+        <app-user-bar></app-user-bar>
     </div>
-    <div class="positonElements" >
-        <app-image-gallery></app-image-gallery>
-        <div class="floatRightBar" >
-            <app-subscription-details></app-subscription-details>
-            <app-data-form></app-data-form>
+    <div class="lowerGrid flexfull">
+        <div class="flexHalf flexParent imageComp">
+            <app-image-gallery></app-image-gallery>
+        </div>
+        <div class="flexHalf">
+            <div class="subDetailcomp">
+                <app-subscription-details></app-subscription-details>
+            </div>
+            <div class="customerDetailcomp">
+                <app-data-form></app-data-form>
+            </div>
         </div>
     </div>
-    
 </div>
-<app-footer-bar></app-footer-bar>
-
+<div class="footer">
+    <app-footer-bar></app-footer-bar>
+</div>

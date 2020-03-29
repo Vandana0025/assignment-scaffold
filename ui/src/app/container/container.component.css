@@ -1,5 +1,4 @@
-.positonElements {
-    padding: 20px 20px 3px 20px;
+/* .positonElements {
     display: inline-flex;
 }
 
@@ -25,3 +24,66 @@
     margin: 0px 27px;
 }
 
+.containerCom {
+    text-align: center;
+    width: 60vw;
+    height: 80vh;
+}
+
+.Wrapper {
+    height: 80vh;
+    width: 90vw;
+    margin-left: 5vw;
+    padding: 5vh;
+}
+
+.userBarCom {
+    height: 10vh;
+    width: 80vw;
+}
+
+.imageComp {
+     height: 65vh;
+     width: 35vw; 
+    overflow-y: auto;
+} */
+
+.wrap {
+    height: 80vh;
+    width: 70vw;
+    margin: 1vw 15vw 0vw;
+    text-align: center;
+}
+
+.flexParent {
+    margin-right: 4%;
+}
+
+.flexHalf {
+    float: left;
+    width: 48%;
+}
+
+.flexfull {
+    float: left;
+    display: inline-flex;
+    width: 70vw;
+    /* background-image: linear-gradient(90deg,#ff8a00,#e52e71); */
+}
+
+.lowerGrid {
+    height: 67vh;
+    margin-top: 2vh;
+}
+
+.imageComp {
+    height: 100%;
+    /* overflow-y: scroll; */
+}
+
+.subDetailcomp{
+    height: 20vh;
+}
+.customerDetailcomp {
+    height: 47vh;
+}

@@ -1,7 +1,7 @@
 .footerCom {
-    height: 50px;
-    z-index: auto;
-    padding: 7px 20px 0px 20p
+    height: 8vh;
+    position: absoluet;
+    bottom: 0;
 }
 
 .footerBar {
@@ -15,7 +15,6 @@
 .approveBtn {
     background-color: #1A293B;
     color: whitesmoke;
-
 }
 
 .textColor {
