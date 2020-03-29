@@ -1,7 +1,9 @@
 .footerCom {
-    height: 8vh;
-    position: absoluet;
+    height: 7vh;
+    padding-top: 1vh;
     bottom: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footerBar {

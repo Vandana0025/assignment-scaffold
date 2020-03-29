@@ -1,14 +1,8 @@
 .subComponent {
     font-size:14px;
     line-height: 2;
-}
-
-.subTitle  {
-    color: gray;
-}
-
-.subValue {
-    color:rgb(47, 46, 46);
+    padding: 5px 0px;
+    text-align-last: left;
 }
 
 .formatGrid {
@@ -24,5 +18,11 @@
 
 h3 {
     color: rgb(27, 209, 233);
-    margin: 0px 10px;
+    padding: 0px 15px;
+    margin: 0px !important;
 }
+
+.spacing {
+    padding: 0px 15px;    
+}
+

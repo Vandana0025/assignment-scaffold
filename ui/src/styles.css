@@ -19,11 +19,23 @@ html {
   background-color: #7C4D9E;
 }
 
+.subTitle  {
+  color: gray;
+}
+
+.subValue {
+  color:rgb(47, 46, 46);
+}
+
+.text {
+  font-size: 14px;
+}
+
 /* ScrollBar Style */
 
 /* width */
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 13px;
   }
   
   /* Track */
